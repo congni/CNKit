@@ -31,8 +31,5 @@ Pod::Spec.new do |s|
         ss.subspec 'FoundtionKit' do |cnkit|
             cnkit.source_files = 'CNKit/FoundtionKit/*'
         end
-        ss.subspec 'UIKit' do |cnkit|
-            cnkit.source_files = 'CNKit/UIKit/*'
-        end
     end
 end
