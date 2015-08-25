@@ -27,7 +27,10 @@ Pod::Spec.new do |s|
     s.requires_arc = true
 
     s.source_files = 'CNKit.h'
-    s.subspec 'FoundtionKit' do |evernote|
-        evernote.source_files = 'FoundtionKit/*.{h,m}'
+    s.subspec 'FoundtionKit' do |ss|
+        ss.source_files = 'FoundtionKit/*'
+    end
+    s.subspec 'UIKit' do |ss|
+        ss.source_files = 'UIKit/*'
     end
 end

@@ -9,7 +9,6 @@
 #import "UIView+CNKit.h"
 #import <QuartzCore/QuartzCore.h>
 #import <objc/runtime.h>
-#import <CNKit.h>
 
 @implementation UIView (CNKit)
 @dynamic info_Dict,description;
