@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
     s.name         = "CNKitCategory"
-    s.version      = "1.0.0"
+    s.version      = "1.0.5"
     s.summary      = "IOS开发基本Category库！欢迎大家使用"
     s.description      = <<-DESC
                         A longer description of U in Markdown format.
