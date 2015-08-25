@@ -131,7 +131,6 @@
 {
     UILabel *label = [[UILabel alloc] initWithFrame:frame];
     label.textColor = [UIColor whiteColor];
-    label.font = [UIFont fontWithName:[IOSFrameLibraryConfigureObject pod_AppFont] size:fontSize];
     label.backgroundColor = [UIColor clearColor];
     return label;
     
