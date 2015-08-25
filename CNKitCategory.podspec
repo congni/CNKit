@@ -26,10 +26,11 @@ Pod::Spec.new do |s|
     s.platform     = :ios, '6.0'
     s.requires_arc = true
 
-    s.subspec 'CNKit' do |ss|
-        ss.source_files = 'CNKit/CNKit.h'
-        ss.subspec 'FoundtionKit' do |cnkit|
-            cnkit.source_files = 'CNKit/FoundtionKit/*'
-        end
+    ss.source_files = 'CNKit.h'
+    s.subspec 'FoundtionKit' do |ss|
+        ss.source_files = 'FoundtionKit/*'
+    end
+    s.subspec 'UIKit' do |ss|
+        ss.source_files = 'FoundtionKit/*'
     end
 end
