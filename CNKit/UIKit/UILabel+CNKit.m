@@ -9,7 +9,7 @@
 #import "UILabel+CNKit.h"
 #import "UIColor+CNKit.h"
 #import "UIView+CNKit.h"
-#import "IOSFrameLibraryConfigureObject.h"
+
 
 @implementation UILabel (CNKit)
 
