@@ -14,5 +14,6 @@
 #import "UIColor+CNKit.h"
 #import "NSString+CNKit.h"
 #import "NSDate+CNKit.h"
+#import "NSString+Encrypto.h"
 
 

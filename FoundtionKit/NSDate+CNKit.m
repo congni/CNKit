@@ -132,7 +132,24 @@ static NSCalendar *_calendar = nil;
     return destDateString;
 }
 
-
+#pragma mark 日期比较，返回相差的秒数
+- (NSInteger)compareWithDate:(NSDate *)endDate {
+    NSDate *startDate = self;
+    
+    NSInteger unitFlags = NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitWeekday |
+    NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond;
+    
+    NSCalendar *gregorian = [NSCalendar currentCalendar];
+    NSDateComponents *components = [gregorian components:unitFlags fromDate:startDate toDate:endDate options:0];
+    
+    NSInteger months = [components month];
+    NSInteger days = [components day] + months * 30;
+    NSUInteger hours = [components hour];
+    NSUInteger min = [components minute];
+    NSUInteger sec = [components second];
+    
+    return sec + min * 60 + hours * 60 * 60 + days * 24 * 60 * 60;
+}
 
 #pragma mark NSDate转日期字符串  默认格式
 - (NSString *)stringFromDate{

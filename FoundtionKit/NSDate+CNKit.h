@@ -81,6 +81,15 @@
 + (long int)timeToTimestampByDate:(NSDate *)curDate;
 - (long int)timeToTimestamp;
 
+/**
+ *  日期比较  返回相差的秒数
+ *
+ *  @param endDate 日期
+ *
+ *  @return 秒
+ */
+- (NSInteger)compareWithDate:(NSDate *)endDate;
+
 - (NSUInteger)year;
 - (NSUInteger)month;
 - (NSUInteger)day;
