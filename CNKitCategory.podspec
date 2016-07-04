@@ -19,10 +19,10 @@ Pod::Spec.new do |s|
                         * Try to keep it short, snappy and to the point.
                         * Finally, don't worry about the indent, CocoaPods strips it!
                         DESC
-    s.homepage         = "https://git.oschina.net/congni/CNKit.git"
+    s.homepage         = "https://github.com/congni/CNKit.git"
     s.license          = 'MIT'
     s.author           = { "葱泥" => "983818495@qq.com" }
-    s.source           = { :git => "https://git.oschina.net/congni/CNKit.git", :tag => s.version.to_s }
+    s.source           = { :git => "https://github.com/congni/CNKit.git", :tag => s.version.to_s }
     s.platform     = :ios, '6.0'
     s.requires_arc = true
 
