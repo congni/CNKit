@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 
-    s.name         = "CNKitCategory"
+    s.name         = "CNKit"
     s.version      = "1.1.8"
     s.summary      = "IOS开发基本Category库！欢迎大家使用"
     s.description      = <<-DESC

@@ -15,5 +15,6 @@
 #import "NSString+CNKit.h"
 #import "NSDate+CNKit.h"
 #import "NSString+Encrypto.h"
+#import "NSString+JSON.h"
 
 
